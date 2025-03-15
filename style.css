@@ -3,7 +3,7 @@
     width: 100%;
     height: fit-content;
     padding: 0px;
-    margin: px;
+    margin: 0px;
     overflow: hidden;
     justify-content: center;
     background: linear-gradient(270deg, rgb(6, 6, 65), rgb(10, 39, 99));
@@ -72,7 +72,7 @@
     transform: scaleX(1.2);
     text-align: center;
     justify-self: center;
-    max-width: 50%;
+
 }
 .rule_title{
     font-size: 4em;
