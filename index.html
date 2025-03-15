@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Simon Game</title>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barriecito&family=Noto+Sans+Symbols:wght@100..900&family=Pacifico&family=Paytone+One&family=Share+Tech+Mono&family=Tiny5&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div >
+                <h1 id="title"> Simon Game</h1>
+            </div>
+            <div>
+                <p id="level">1</p>
+            </div>
+        </div>
+        <div class="start_menu">
+            <button id="start_menu" class="button start">Start Game!</button>
+        </div>
+        <div id="game_start" class="buttons invisible">
+            <button class="button" id="red">Red</button>
+            <button class="button" id="blue">Blue</button>
+            <button class="button" id="green">Green</button>
+            <button class="button" id="yellow">Yellow</button>
+        </div>
+        <h2 class="rule_title">Rules</h2>
+        <div class="rules">
+            
+            <p>:The game will press the buttons in a particular sequence, player must click the buttons in the same order.</p>
+            <p>:The game will add a new button in the sequence as the player progresses in levels.</p>
+            <p>:Failing to match the sequence will result in game over, restarting back to level 1.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
